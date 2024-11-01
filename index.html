@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="box">
+            <h2>Consumo da API ViaCEP</h2>
+            <div>
+                <form action="#" id="form">
+                    <label for="cep">Informe o CEP</label>
+                    <input type="text" placeholder="CEP" id="cep" maxlength="9">
+                    <button>Pesquisar</button>
+                </form>
+                </div>
+
+                <hr>
+
+                <div>
+                <div class="noline">
+                    <label for="result">Logradouro</label>
+                    <input type="text" class="result" id="logradouro" disabled>
+                    <label for="result">Bairro</label>
+                    <input type="text" class="result" id="bairro" disabled>
+                    <label for="result">Cidade</label>
+                    <input type="text" class="result" id="localidade" disabled>
+                    <label for="result">Estado</label>
+                    <input type="text" class="result" id="estado" disabled>
+                    <label for="result">Região</label>
+                    <input type="text" class="result" id="regiao" disabled>
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
